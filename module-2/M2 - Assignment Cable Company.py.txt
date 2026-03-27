@@ -1,0 +1,26 @@
+print ("Welcome to the Cable Company!")
+feet_of_cable = float(input("How many feet of cable do you need?: "))
+cost = float(feet_of_cable)
+if (feet_of_cable > 500):
+    print ("The cost is $0.50 per foot.")
+    cost = float(feet_of_cable) * 0.50
+    print ("The total cost is: $", cost)
+    print ("Thank you for using the Cable Company!")
+elif feet_of_cable > 250:
+    print ("The cost is $0.70 per foot.")
+    cost = float(feet_of_cable) * 0.70
+    print ("The total cost is: $", cost)
+    print ("Thank you for using the Cable Company!")
+elif feet_of_cable > 100:
+    print ("The cost is $0.80 per foot.")
+    cost = float(feet_of_cable) * 0.80
+    print ("The total cost is: $", cost)
+    print ("Thank you for using the Cable Company!")
+else:
+    print ("The cost is $0.87 per foot.")
+    cost = float(feet_of_cable) * 0.87
+    print ("The total cost is: $", cost)
+    print ("Thank you for using the Cable Company!")
+    print ("Have a nice day!")
+    
+    
